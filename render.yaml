@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: flowise
+    env: docker
+    plan: starter
+    repo: https://github.com/Juanmanueloddone/flowise-fabio
+    branch: main
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
